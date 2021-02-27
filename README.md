@@ -1,6 +1,6 @@
 # Shrimpy Money Manager
 
-  This self-hosted tool will allow you to manual program your take-profit for future Dollar-Cost-Averaging (DCA) or take home profit. It does this in increments or whole amounts by your settings in precise positive deviations of your average portfolio balance.
+  This self-hosted tool will allow you to manually program your take-profit for future Dollar-Cost-Averaging (DCA) or take home profit. It does this in increments or whole amounts by your settings in precise positive deviations of your average portfolio balance.
 
   By connecting your KuCoin or Binance subaccount APIs you will be able to control how your money is handled between shrimpy leaders.
 
