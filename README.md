@@ -5,7 +5,7 @@
   By connecting your KuCoin or Binance subaccount APIs you will be able to control how your money is handled between shrimpy leaders.
 
   You first need to setup each leader or personal portfolio on a seperate api. 
-  After this, you will set the starting balance and the allocation you would like each portfolio to have in a global setting.
+  After this, you will set the starting balance and the allocation you would like each portfolio to have in a global setting, or place multiple leaders into an "index"
 
 # Ex. You are following "Gathering" on KuCoin and his currently 19 portfolios - Using 10% DCA take profit and 5% take-home profit on every 20% increase in the index
   He requires 50% funds spread out into the BTC/ETH. 50% set into 18 other altcoin portfolios.
