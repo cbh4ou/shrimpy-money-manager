@@ -13,19 +13,19 @@
   In the tool, you would join all these portfolios into a "portfolio" or "index" set the allocations for each portfolios inputting the starting balance for each one.
   
   Bringing take profit into the example now:
-    Using 10% DCA take profit and 5% take-home profit on every 20% increase in the index
+    Using 10% DCA take profit and 5% take-home profit on every 20% increase in the index.
      If you started with $3200, and you did a 20% increase that would be $640.
-     10% or $64 will go into DCA subaccount and $32 into take home account.
+     $64 (10%) will go into DCA subaccount and $32 (5%) into the take home account.
      
   Rebalancing or Money Management:
      Now the software knows which portfolios are below the average by tracking current balance associated with allocation. Lets assume one portfolio sold $5 (not to be confused  
      with DCA or take home profit) of its profit after a rebalance to fill a losing portfolio below the portolio average. The system will store this as -$5 the take profit and +$5 
      for the losing portfolio. So when it is time to rebalance and take profit again, the system to optimize the distribituion of funds to the best of its ability. Best case
      the $5 of the $64 DCA profit fills into the portfolio who just transferred 5 into another portfolio once he hit a 20% increase in our portfolio and the rest will go into the
-     least performing portfolios. This is where the magic happens
+     least performing portfolios. This is where the magic happens.
      
      
-  Rebalancing during an overall down trend (Negative deviation of all accounts compared to the previous rebalance average)
+  Rebalancing during an overall down trend (Negative deviation of all accounts compared to the previous rebalance average):
     
     
   
