@@ -9,7 +9,7 @@
 
 # Ex. You are following "Gathering" on KuCoin and his currently 19 portfolios - Using 10% DCA take profit and 5% take-home profit on every 20% increase in the index
   He requires 50% funds spread out into the BTC/ETH. 50% set into 18 other altcoin portfolios.
-  In this example, with $3600, you would do $100 in each of the 18 with $1188 in BTC and $612 in ETH if using a 66:34 ratio
+  In this example, with $3600, you would do $100 in each of the 18, with $1188 in BTC and $612 in ETH if using a 66:34 ratio.
   In the tool, you would join all these portfolios into a "portfolio" or "index" set the allocations for each portfolios inputting the starting balance for each one.
   
   Bringing take profit into the example now:
