@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+      {% block page_title %} Login | JKW Enterprises{% endblock %}
+    </title>
+    <meta name="description" content="{% block meta_description %}{% endblock %}">
+    <meta name="author" content="{% block meta_author %}Connor Hatcher{% endblock %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="{{static_url_for('static', filename='build/img/favicon.ico') }}">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ static_url_for('static', filename='build/main_css.bundle.css') }}"
+  />
+
+    {% block css %}{% endblock %}
+
+    <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+  </head>
+
+  <body class="bg-gradient-primary">
+    
+        
+      {% block content %}{% endblock %}
+
+
+    
+    
+
+    <!-- Custom Javascript -->
+    <!-- JavaScript at the bottom for fast page loading -->
+    <script src="{{ static_url_for('static', filename='build/main_js.bundle.js') }}"></script>
+    {% block js %}{% endblock %}
+
+    <!-- Google Analytics -->
+    </div>
+      </div>
+      <!-- End Content Wrapper -->
+</div>
+  </body>
+
+</html>

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+  <!-- Page Heading -->
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+        class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+  </div>
+  <!-- Content Row -->
+  <div class="row">
+
+    <!-- Content Column -->
+    <div class="col-lg-12 mb-4">
+
+      <!-- Project Card Example -->
+      <div class="row">
+        <!-- Area Chart -->
+        <div class="col-xl-offset-1 col-xl-12 justify-content-center col-lg-7 mb-4">
+            <!-- Project Card Example -->
+            <div class="card shadow mb-4">
+                <div class="card-header">
+                    <h6 class=" m-0 font-weight-bold text-primary">All Funnel KPIs</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Funnel</th>
+                                    <th>Net EPC</th>
+                                    <th>Net AOV</th>
+                                    <th>Gross EPC</th>
+                                    <th>Gross AOV</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Funnel</th>
+                                    <th>Net EPC</th>
+                                    <th>Net AOV</th>
+                                    <th>Gross EPC</th>
+                                    <th>Gross AOV</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+</div>
+<!-- /.container-fluid -->
+
+
+{% endblock %}

@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<!-- Content Wrapper -->
+
+<div class="container">
+  <form>
+    <div class="card shadow mb-4">
+      <div class="card-header">
+        <h6 class=" m-0 font-weight-bold text-primary">Global Costs</h6>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3">
+
+            <div class="form-group">
+              <label for="">Cost 2</label>
+              <input type="email" class="form-control" id="email" placeholder="Cost 2">
+            </div>
+          </div>
+          <!--  col-md-6   -->
+
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="url">Cost 3</label>
+              <input type="url" class="form-control" id="url" placeholder="url">
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="url">Cost 4</label>
+              <input type="url" class="form-control" id="url" placeholder="url">
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="url">Cost 5</label>
+              <input type="url" class="form-control" id="url" placeholder="url">
+            </div>
+
+          </div>
+          <!--  col-md-3  -->
+        </div>
+        <!--  row   -->
+      </div>
+      <button type="submit" class="btn btn-primary">Save Changes</button>
+    </div>
+
+
+  </form>
+
+  <form id='product-cost-form'>
+    <div class="card shadow mb-4">
+      <div class="card-header">
+        <h6 class=" m-0 font-weight-bold text-primary">Product Costs</h6>
+      </div>
+      <div class="card-body">
+        <div class='row'>
+          <div class="col-xl-6">
+            <div class="form-group">
+              <label for="prods">Funnel Selector:</label>
+              <select class="form-control" id="prods">
+                <option>Select A Product</option>
+              </select>`
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="form-group">
+              <label for="prods">Product Selector:</label>
+              <select class="form-control" id="prods">
+                <option>Select A Product</option>
+              </select>`
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="url">Frontend Price</label>
+              <input type="url" class="form-control" id="url" placeholder="">
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Shipping Cost</label>
+              <input type="email" class="form-control" id="email" placeholder="">
+            </div>
+          </div>
+          <!--  col-md-6   -->
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="url">Product Cost</label>
+              <input type="url" class="form-control" id="url" placeholder="">
+            </div>
+
+          </div>
+          <!--  col-md-3  -->
+        </div>
+      </div>
+
+
+      <!--  row   -->
+      <button type="submit" class="btn btn-primary">Save Changes</button>
+    </div>
+  </form>
+
+</div>
+<!-- End of Content Wrapper -->
+{% endblock %}
